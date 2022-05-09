@@ -1,0 +1,14 @@
+--fruit duper hold any fruit to dupe use it at your own risk theres a chance that it will take away your fruit
+
+local thing = game.Players.LocalPlayer.Character
+local originalpos = thing.HumanoidRootPart.CFrame
+thing.HumanoidRootPart.CFrame = CFrame.new(0,100000000000,0)
+thing.RightUpperLeg:Destroy()
+wait(0.5)
+thing.LeftUpperLeg:Destroy()
+wait(0.5)
+thing.LeftUpperArm:Destroy()
+wait(0.5)
+thing.UpperTorso.Waist:Destroy()
+wait()
+--It only work on some fruit use it at your own risk theres a chance that it will take away your fruit
